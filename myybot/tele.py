@@ -27,7 +27,7 @@ async def command_start_handler(message: types.Message):
     """
     This handler receives messages with `/start` command
     """
-    await message.reply("hii my name is arjun's servent and\n what is your name and \n plz add '/' before your name:-")
+    await message.reply("hii my name is bot")
 
 
 @dispatcher.message_handler(commands=['anuj'])
@@ -35,7 +35,7 @@ async def command(message: types.Message):
     """
     This handler receives messages with `/start` command
     """
-    await message.reply("you are chutiya")
+    await message.reply("hello friend")
 
 
 # c=1
@@ -56,7 +56,7 @@ async def clear(message: types.Message):
     This handler receives messages with `/start` command
     """
     clear_past()
-    await message.reply("hii claearsd succeffuly")
+    await message.reply("cleared succeffuly")
 
 
 
